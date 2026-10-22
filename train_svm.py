@@ -57,6 +57,7 @@ def main():
         probability=True,
         class_weight="balanced",
         random_state=42
+        
     )
 
     print("Running 5-fold cross-validation...")

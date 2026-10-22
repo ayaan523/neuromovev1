@@ -99,6 +99,7 @@ class DatasetBluetoothDriver:
                     self.sock.sendall((command + "\n").encode('utf-8'))
                 except Exception:
                     pass
+                
 
     def run(self):
         print("\n" + "=" * 60)

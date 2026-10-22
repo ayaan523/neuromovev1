@@ -46,7 +46,8 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 SAMPLING_FREQ = 160          # PhysioNet dataset is 160 Hz
 LOW_FREQ = 8.0               # Lower bound of mu/beta band (motor imagery)
 HIGH_FREQ = 30.0             # Upper bound of beta band
-TMIN = -0.5                  # Epoch start: 0.5s before cue
+TMIN = -0.5         
+         # Epoch start: 0.5s before cue
 TMAX = 4.0                   # Epoch end: 4s after cue
 CROP_TMIN = 0.5              # Use only 0.5s to 2.5s after cue for classification
 CROP_TMAX = 2.5
