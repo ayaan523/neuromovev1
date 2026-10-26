@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">NeuroMove brain-computer interface wheelchair project</title>
+  <desc id="desc">A dark blue technology illustration showing a neural network, EEG waveform, and wheelchair controller.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07152e"/><stop offset="1" stop-color="#102e55"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#46d7ff" stop-opacity=".35"/><stop offset="1" stop-color="#46d7ff" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <circle cx="1530" cy="280" r="420" fill="url(#glow)" filter="url(#blur)"/>
+  <g fill="none" stroke="#46d7ff" stroke-width="5" stroke-linecap="round" opacity=".8">
+    <path d="M120 650h180l35-105 48 205 55-280 64 180 42-75 55 75h180"/>
+    <path d="M830 270 C1000 140 1190 180 1310 315 S1590 440 1780 300" stroke="#8cf3d2" opacity=".45"/>
+    <path d="M870 360 C1030 260 1170 320 1320 430 S1580 535 1760 440" stroke="#46d7ff" opacity=".35"/>
+  </g>
+  <g fill="#8cf3d2" stroke="#07152e" stroke-width="12">
+    <circle cx="1030" cy="210" r="22"/><circle cx="1300" cy="315" r="22"/><circle cx="1520" cy="430" r="22"/><circle cx="1760" cy="300" r="22"/>
+  </g>
+  <g transform="translate(1110 600)" fill="none" stroke="#46d7ff" stroke-width="18">
+    <circle cx="120" cy="230" r="92"/><circle cx="520" cy="230" r="92"/><path d="M120 230l130-260h190l200 260M250-30l-80-125M250-30h290l100 260M250 20h250"/>
+  </g>
+  <text x="120" y="250" fill="#ffffff" font-family="sans-serif" font-size="112" font-weight="700" letter-spacing="8">NEUROMOVE</text>
+  <text x="128" y="345" fill="#8cf3d2" font-family="sans-serif" font-size="38" letter-spacing="5">BRAIN-COMPUTER INTERFACE WHEELCHAIR</text>
+  <text x="128" y="925" fill="#b9d8ee" font-family="sans-serif" font-size="30" letter-spacing="2">EEG SIGNALS  •  MACHINE LEARNING  •  ASSISTIVE MOBILITY</text>
+</svg>
